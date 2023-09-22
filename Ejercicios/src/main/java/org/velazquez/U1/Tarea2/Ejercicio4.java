@@ -9,8 +9,8 @@ public class Ejercicio4 {
         System.out.println("Establezca un número de millas: ");
         int numero1 = teclado.nextInt();
 
-        System.out.print(numero1);
+        System.out.print(numero1 + (" millas"));
         System.out.println(" equivalen a: ");
-        System.out.print(numero1 * metros );
+        System.out.print(numero1 * metros +" metros");
     }
 }
