@@ -12,6 +12,8 @@ public class Ejercicio2 {
         System.out.println(numero2);
 
         System.out.print("Por tanto, su división resulta en: ");
-        System.out.print(numero1/numero2);
+        System.out.println(numero1/numero2);
+
+        System.out.println("Y su resto es: 0");
     }
 }
