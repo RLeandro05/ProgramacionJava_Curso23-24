@@ -10,11 +10,11 @@ public class Ejercicio4 {
         float n1 = teclado.nextFloat();
 
         System.out.println("Sabiendo que: ");
-        System.out.println("1 milla = 1.609 km");
+        System.out.println("1 milla = 1.609 m");
 
         System.out.print(n1+" = ");
         float multiplicacion = (float) (n1*1609);
 
-        System.out.print(multiplicacion +" km ");
+        System.out.print(multiplicacion +" m ");
     }
 }
