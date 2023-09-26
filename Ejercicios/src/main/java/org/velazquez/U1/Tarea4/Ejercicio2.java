@@ -8,12 +8,9 @@ public class Ejercicio2 {
         double n1 = 7;
         double n2 = 5;
 
-        double multiplicacion1 = (double) (n1*0.4);
-        double multiplicacion2 = (double) (n2*0.6);
+        double resultado = (double) ((n1+n2)/2);
 
-        double suma = (double) (multiplicacion2+multiplicacion1);
-
-        System.out.println("su media aritmética es: "+suma);
+        System.out.println("su media aritmética es: "+resultado);
 
 
     }
