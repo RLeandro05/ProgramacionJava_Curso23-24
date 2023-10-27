@@ -30,7 +30,7 @@ public class Evaluable {
 
     public static boolean esta(int[] vector, int elemento) {
 
-        for (int i = 0; i <= vector.length ; i++) {
+        for (int i = 0; i < vector.length ; i++) {
             if (vector[i]==elemento) {
                 return true;
             }
