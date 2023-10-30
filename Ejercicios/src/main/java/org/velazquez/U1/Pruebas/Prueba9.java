@@ -6,6 +6,8 @@ public class Prueba9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("SABER SI CADA CIFRA ES UN NÚMERO PRIMO O NO");
+
         long n;
         long n0 = 0;
         long contador_primo = 0;
