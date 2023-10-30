@@ -3,7 +3,7 @@ package org.velazquez.U1.Pruebas;
 public class Prueba7 {
     public static void main(String[] args) {
 
-        System.out.println("TRIÁNGULO INVERTIDO Y HUECO");
+        System.out.println("TRIÁNGULO INVERTIDO");
         System.out.println();
         int n = 5;
 
