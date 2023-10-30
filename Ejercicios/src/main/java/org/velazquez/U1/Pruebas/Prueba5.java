@@ -3,6 +3,8 @@ package org.velazquez.U1.Pruebas;
 public class Prueba5 {
     public static void main(String[] args) {
 
+        System.out.println("FLECHA");
+        System.out.println();
         int n = 7;
         int ancho = (n+1)/2;
 

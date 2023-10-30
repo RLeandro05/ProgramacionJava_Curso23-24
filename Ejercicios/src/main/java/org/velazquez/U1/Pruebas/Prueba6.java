@@ -2,6 +2,9 @@ package org.velazquez.U1.Pruebas;
 
 public class Prueba6 {
     public static void main(String[] args) {
+
+        System.out.println("ROMBO");
+        System.out.println();
         int n = 11;
         int ancho = (n+1)/2;
 
