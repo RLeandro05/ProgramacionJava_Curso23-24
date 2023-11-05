@@ -1,0 +1,548 @@
+[33mcommit 1daf46f81e4ce5854fbef8fe6903128d28954641[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Sat Nov 4 20:16:58 2023 +0100
+
+    Añadidos Ejercicios de Prueba para Prácticas
+
+[33mcommit 45cea18e4f132cb7634426f3455837e4df40cb76[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Sat Nov 4 13:06:28 2023 +0100
+
+    Añadidos Ejercicios de prueba para prácticas
+
+[33mcommit 4095daf9ee80ef63d4d13ebd3c69bf823d4f1834[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Fri Nov 3 09:33:18 2023 +0100
+
+    Añadido ahora sí el anterior commit que mencioné
+
+[33mcommit f6b5ed8dda0fa559b8f827354e9cd22c1d3723fb[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Fri Nov 3 09:30:30 2023 +0100
+
+    Modificado el Ejercicio 3 del examen sólo para ver el error en el que fallé y añadido Ejercicio de prueba para prácticas
+
+[33mcommit e47903cd8cfab4f5aed7390db2fd8493cf7ec7fc[m
+Merge: b1975c4 51ccc52
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Tue Oct 31 11:21:13 2023 +0100
+
+    Merge branch 'main' of https://github.com/RLeandro05/programacion_23_24
+
+[33mcommit b1975c425f688dbe985e1283e4474a9e72415878[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Tue Oct 31 11:20:59 2023 +0100
+
+    Añadido Ejercicios 1, 2, 3 y 4 del ExamenU1U2
+
+[33mcommit 51ccc526485e9b5b7b87c38ca734552c3c233ee8[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Mon Oct 30 22:13:20 2023 +0100
+
+    Actualizado y añadido títulos de los ejercicios de Práctica
+
+[33mcommit f637fc7d19e859c72e7678d82b3c229125eeab07[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Mon Oct 30 22:01:08 2023 +0100
+
+    Añadido Ejercicio de prueba para Prácticas
+
+[33mcommit bb78d32884c7577ffa887d633399552d33affb52[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Mon Oct 30 20:40:41 2023 +0100
+
+    Arreglado un título de un ejercicio de prueba
+
+[33mcommit a90696e6f7c533921963daf4ffd311bf87fa4b5d[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Mon Oct 30 20:38:12 2023 +0100
+
+    Añadido Títulos para identificar los ejercicios y añadido Nueva Ejercicio de prueba para práctica
+
+[33mcommit 628b5ccfcf221156a22eb76757549fe891690224[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Mon Oct 30 19:55:15 2023 +0100
+
+    Añadidos Ejercicios de prueba para práctica
+
+[33mcommit 4e51b4ff6edc465b824ad7b42768045383cad927[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Mon Oct 30 10:33:11 2023 +0100
+
+    Añadido Ejercicio de prueba para práctica
+
+[33mcommit c1e3311357149bfd7c6af40dc36d3c7ddb554035[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Sun Oct 29 20:41:11 2023 +0100
+
+    Añadido Ejercicio de prueba para práctica
+
+[33mcommit bf08fba417eb7a1b700d2b3f8195a7340861ad2c[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Sun Oct 29 12:42:49 2023 +0100
+
+    Añadido Ejercicio de prueba para práctica
+
+[33mcommit 813204d6eedc36487ea5e4fcf968b9a835ad1d3e[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Sat Oct 28 12:44:37 2023 +0200
+
+    Actualizado y arreglada la B
+
+[33mcommit c11ae00cc5928ef709cc84fc8bf6820fcf8a30f2[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Fri Oct 27 10:44:45 2023 +0200
+
+    Actualizado y hecho el Ejercicio Evaluable de DEBUG
+
+[33mcommit 33a17fcbf2399e0f5422c12402b829f92ceca5e9[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Fri Oct 27 09:05:39 2023 +0200
+
+    Añadido entregable por hacer y AB
+
+[33mcommit 25bcacdfe24a4efad16772e321d7c285f96a5954[m
+Merge: ddef4d0 e980389
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Oct 24 11:12:00 2023 +0200
+
+    Merge branch 'main' of https://github.com/RLeandro05/programacion_23_24
+
+[33mcommit ddef4d0bcb4680ff75f796aaff8faf03f9434a8f[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Oct 24 11:10:28 2023 +0200
+
+    Añadido Ejercicios 1, 2, 3 y 4 de Tarea Depuración
+
+[33mcommit e98038977475171075294dd3f4f0c7fdd2066fce[m
+Author: RLeandro05 <lligpic577@g.educaand.es>
+Date:   Fri Oct 20 11:25:30 2023 +0200
+
+    Añadido Entregable U1
+
+[33mcommit 7be8409e565d137b285e91b67e580b14e14bf461[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Oct 17 18:56:55 2023 +0200
+
+    Añadido Ejercicios 7, 8, 9, 10 y 11 de Tarea 8b
+
+[33mcommit 0e463e8e46d633af4e0b8b3aaafeae1042c0e172[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Sat Oct 14 19:10:48 2023 +0200
+
+    Añadido Ejercicio 6 de Tarea 8b
+
+[33mcommit 1eebbc0454a89f0bd62e6a14ff481072385f6613[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Sat Oct 14 18:07:36 2023 +0200
+
+    Añadido Ejercicio 5 de Tarea 8b
+
+[33mcommit dbddad923e6098243e18c27bcb6cc73b0bcf2286[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Sat Oct 14 13:14:47 2023 +0200
+
+    Añadidos Ejercicios 2, 3 y 4 de Tarea 8b
+
+[33mcommit 4a5283497a472cf0f4700118120e5575388f79f9[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Oct 13 09:12:10 2023 +0200
+
+    Añadido Ejercicio 1 de Tarea 8b
+
+[33mcommit db5be7f984e35bbb4592507e5877bcc060e36264[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Oct 13 08:57:18 2023 +0200
+
+    Añadidos Ejercicios 11, 12, 13, 14 y 15 de Tarea 8
+
+[33mcommit dba42f98aff47081d9c48303c36c36f9a001cb02[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Wed Oct 11 20:03:24 2023 +0200
+
+    Añadidos Ejercicios 4, 5, 6, 7, 8, 9 y 10 de Tarea 8
+
+[33mcommit 4a72078bb558444b43aef577e8c41fded573e280[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Oct 10 10:50:34 2023 +0200
+
+    Añadido Ejercicio 3 de Tarea 8
+
+[33mcommit 75d29a39f48577e0fc8521a8cbaca54fcff883de[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Oct 10 10:01:56 2023 +0200
+
+    Añadido Ejercicio 2 de Tarea 8
+
+[33mcommit 54ac59955e003a77c10bc49fadd5647245e56f37[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Oct 9 19:12:11 2023 +0200
+
+    Añadido Ejercicio 1 de Tarea 8
+
+[33mcommit f6ce72b833719c4743f7516f1536088404ba82c3[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Oct 9 10:28:00 2023 +0200
+
+    Añadido Ejercicio 3 de Tarea 7
+
+[33mcommit 256d3611e89159721b33b9e0233a0df5ba445ab4[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Oct 9 09:31:49 2023 +0200
+
+    Añadido Ejercicio 2 de Tarea 7
+
+[33mcommit ce6429905d92607989d87b48d88001f3a8de8527[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Oct 9 09:09:27 2023 +0200
+
+    Añadido Ejercicio 1 de Tarea 7
+
+[33mcommit a1adf97e02241d13e04d164012931705c77765f9[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Sun Oct 8 10:58:07 2023 +0200
+
+    Añadido Ejercicio 5 de Tarea 6
+
+[33mcommit 4be67a830e3978a9c7be2c0925f4620322f268be[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Oct 6 11:21:42 2023 +0200
+
+    Añadido Ejercicio 4 de Tarea 6
+
+[33mcommit d033d5284709da93fb9e2f920ac7fba3030d1395[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Oct 6 10:48:32 2023 +0200
+
+    Añadido Ejercicio 3 de Tarea 6
+
+[33mcommit 9687785b5ffa5b3bf5b67f8ff8b3c8397f16e916[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Oct 6 10:06:23 2023 +0200
+
+    Añadido Ejercicio 2 de Tarea 6
+
+[33mcommit 856e04e3e9ab8fe6476f7035c834ab2d3d0dfdff[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Oct 6 09:18:08 2023 +0200
+
+    Añadido Ejercicio 1 de Tarea 6
+
+[33mcommit 2009bd667f1cb14feaf8b66f8ffe4049d8243fb6[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Wed Oct 4 19:23:49 2023 +0200
+
+    Añadido Ejercicio 25 de Tarea 5b
+
+[33mcommit e4ab003fad9ef65f116685d978230d153b2fc575[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Oct 3 20:25:55 2023 +0200
+
+    Añadido Ejercicio 24 de Tarea 5b
+
+[33mcommit 0dcf118c4d4be6879fd227e14b8f36dad2c91de8[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Oct 3 20:03:07 2023 +0200
+
+    Añadido Ejercicio 23 de Tarea 5b
+
+[33mcommit 369c7bac7c8e77154f898d6279494ef54fa6835d[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Oct 3 19:39:28 2023 +0200
+
+    Añadido Ejercicio 22 de Tarea 5b
+
+[33mcommit 05786081a8b2a26b751a3391703682a778a94eb8[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Oct 3 11:28:30 2023 +0200
+
+    Añadidos Ejercicios 16,17,18,19,20 y 21 de Tarea 5b
+
+[33mcommit a1ff2f40783c0e29a4c7a34182c469993356d691[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Oct 2 18:25:45 2023 +0200
+
+    Añadidos Ejercicios 14 y 15 de Tarea 5b
+
+[33mcommit 5c1ad63970ccb6201e636a2f9872dfc85a8afcd9[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Sat Sep 30 17:04:53 2023 +0200
+
+    Añadido Ejercicio 13 de Tarea 5b
+
+[33mcommit 434ab9e1a51203df4f721e17588d4d5e1c7101fb[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Sat Sep 30 12:45:38 2023 +0200
+
+    Añadido Ejercicio 12 de Tarea 5b
+
+[33mcommit f6cd389bb7b2cd000fd5436bd857095a8462baab[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 29 11:17:50 2023 +0200
+
+    Añadido Ejercicio 11 de Tarea 5b
+
+[33mcommit 653beac69e37c759df5dd9f9c8e4fb45fa05fa05[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 29 10:11:25 2023 +0200
+
+    Añadido Ejercicio 10 de Tarea 5b
+
+[33mcommit ea8c08ffca92d88eecbdf489dc9acd6e88032fa1[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 29 10:00:26 2023 +0200
+
+    Añadido Ejercicio 9 de Tarea 5b
+
+[33mcommit 8cd983b27adc86f2ec2e0548def51a831f054a4d[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 29 09:23:11 2023 +0200
+
+    Añadido Ejercicio 8 de Tarea 5b
+
+[33mcommit f7a31ff650c73238bb90fbc804ba0484227fbb40[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 29 08:53:45 2023 +0200
+
+    Añadido Ejercicio 7 de Tarea 5b
+
+[33mcommit f243ffce04cec0498d1b40a8fb1a05adfe79e472[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 29 08:44:41 2023 +0200
+
+    Añadido Ejercicio 6 de Tarea 5b
+
+[33mcommit e5a89511459be83649bd0f0e2b40f4b9abed1aa5[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Thu Sep 28 20:28:57 2023 +0200
+
+    Añadido Ejercicio 5 de Tarea 5b
+
+[33mcommit 55eb4c112442c0e3b56098768f8929df7807f8cf[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Thu Sep 28 20:04:45 2023 +0200
+
+    Añadido Ejercicio 4 de Tarea 5b
+
+[33mcommit 2e58fc2e69b43a817a41eba42bac8d087eea0c86[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Wed Sep 27 19:56:03 2023 +0200
+
+    Añadido Ejercicio 3 de Tarea 5b
+
+[33mcommit 038ff95b8becdf6f8ead11548a9ad6aa722f84c2[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Wed Sep 27 19:38:26 2023 +0200
+
+    Añadido Ejercicio 2 de Tarea 5b
+
+[33mcommit b53546f78dc5c963e8c678df80dfc245c049ce9b[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Wed Sep 27 19:22:51 2023 +0200
+
+    Añadido Ejercicio 1 de Tarea 5b
+
+[33mcommit 6d8c78528754b603382a33874ea4b0bf65a5d2dd[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 20:09:17 2023 +0200
+
+    Añadido Ejercicio 6 de Tarea 5
+
+[33mcommit c77d856727d1094a8924e2d885216c559e3ff585[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 19:57:36 2023 +0200
+
+    Añadido Ejercicio 5 de Tarea 5
+
+[33mcommit 79043cf3f73f90d2ddec78b8efa516e0ce3b51d1[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 11:28:43 2023 +0200
+
+    Añadido Ejercicio 4 de Tarea 5
+
+[33mcommit 6c90aee9d99ef1d426d18a46b53204bc3b574685[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 10:48:30 2023 +0200
+
+    Añadido Ejercicio 3 de Tarea 5
+
+[33mcommit c2d7ffa4555e843c145c8d0d8b396cbed9ce006d[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 10:33:28 2023 +0200
+
+    Añadido Ejercicio 2 de Tarea 5
+
+[33mcommit 85a5f1f5d48023b28f8cef5bd7fdc1a4df409c40[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 10:21:54 2023 +0200
+
+    Añadido Ejercicio 1 de Tarea 5
+
+[33mcommit aba1eb8dab2293c0c952bab2d719eb21df9c599d[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 09:49:15 2023 +0200
+
+    Añadido Ejercicio 5 de Tarea 4
+
+[33mcommit 78dab5db9f6a507af37465dde0384462c5d340c5[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 09:33:46 2023 +0200
+
+    Modificado nuevamente el Ejercicio 2 de Tarea 4
+
+[33mcommit ca93916665c9ef91a3a638056bfaf7f2c34e77a8[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 09:31:07 2023 +0200
+
+    Modificado el Ejercicio 2 de Tarea 4
+
+[33mcommit be84b72a8c6480100f7cdb770baa0800d104f773[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 09:23:55 2023 +0200
+
+    Añadido Ejercicio 4 de Tarea 4
+
+[33mcommit 3fbe7a880be92bd2dd9e59131c8e2b0366527e3d[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 09:07:53 2023 +0200
+
+    Añadido Ejercicio 3 de Tarea 4
+
+[33mcommit dcb12996183d900ec7da40fb3ad71f6d5ccfd4b7[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 08:56:31 2023 +0200
+
+    Añadido Ejercicio 2 de Tarea 4
+
+[33mcommit 7e6ea446c8e1c908c7e421d85cc86e3fef824332[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 26 08:45:22 2023 +0200
+
+    Añadido Ejercicio 1 de Tarea 4
+
+[33mcommit 812ecdd1b28e178e5fe03815eb869ba8ea30000b[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Sep 25 10:18:56 2023 +0200
+
+    Vuelvo a añadir Ejercicio 4 de Tarea 3 tras eliminarlo accidentalmente
+
+[33mcommit f0a93662c2c4ed326e893a207b0a8b90b7f457c6[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Sep 25 09:35:10 2023 +0200
+
+    Añadido Ejercicio 4 de Tarea 3
+
+[33mcommit 3d39b20924bda7f0c4ea7af0c31c0bbadc7dbd5d[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Sep 25 09:25:04 2023 +0200
+
+    Añadido Ejercicio 3 de Tarea 3
+
+[33mcommit 7f1bc9e02100188e0c7396b9ecb25a257ab4d4b5[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Sep 25 09:17:46 2023 +0200
+
+    Añadido Ejercicio 2 de Tarea 3
+
+[33mcommit 611a4bedae522db83c299188f89344a5ddacba2e[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Mon Sep 25 09:06:24 2023 +0200
+
+    Añadido Ejercicio 1 de Tarea 3
+
+[33mcommit 38fd5d87795320bad9d81940e90d46b8ce485f21[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 22 11:30:43 2023 +0200
+
+    Añadido el Ejercicio 5 de la Tarea 2
+
+[33mcommit 01d6554ca6b4ca8243b21f7d21aca06079f1f8ad[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 22 11:19:58 2023 +0200
+
+    Añadido unidades de medida para indicar a cuál se refiere en el Ejercicio 4 de la Tarea 2
+
+[33mcommit 7d291aaf304ce93f9fc2724afcd7b087ab8fcc73[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 22 11:17:14 2023 +0200
+
+    Añadido el Ejercicio 4 de la Tarea 2
+
+[33mcommit 774a631538a0dcb9801239a3665cdedf57b25f7c[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 22 11:09:20 2023 +0200
+
+    Añadido el Ejercicio 3 de la Tarea 2
+
+[33mcommit a16a4124b1667ce20e0272cda5599fb82cefc1f3[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 22 10:51:45 2023 +0200
+
+    Añadido el resto en el Ejercicio 2 de la Tarea 2
+
+[33mcommit d72c991f423cfeff150c94d9d62760453125942d[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 22 10:49:48 2023 +0200
+
+    Añadido el Ejercicio 2 de la Tarea 2
+
+[33mcommit bb966149ed2efa1b5fae0c010bd46082bbba8659[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 22 10:45:15 2023 +0200
+
+    Añadida el Ejercicio 1 de la Tarea 2
+
+[33mcommit 45be9027678dfbf168a1e51b17f6e2ab547de2d9[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 22 10:35:07 2023 +0200
+
+    Publicada la Tarea 1 de la Unidad 1
+
+[33mcommit 3b2478b7b8eb2164a446419a92dcff98dc9f3dc8[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Fri Sep 22 10:04:52 2023 +0200
+
+    Presentamos Proyectp
+
+[33mcommit f9b8a1d7c9f66c69eda7d4744214f334e2b91c88[m
+Merge: bbcd95c 2451441
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 19 11:01:44 2023 +0200
+
+    unión final
+
+[33mcommit bbcd95c541e7a09888963a68f5fd51ac54af6289[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 19 10:57:15 2023 +0200
+
+    borrar linea desde repo local
+
+[33mcommit 2451441098ddd782e0a5d0cf4d0a6c48f7d05a36[m
+Author: RLeandro05 <145332108+RLeandro05@users.noreply.github.com>
+Date:   Tue Sep 19 10:52:11 2023 +0200
+
+    Cargándome esta línea desde el repo remoto
+
+[33mcommit 7a0e9bcbe79856ed765910708973aa63f9f47400[m
+Author: RLeandro05 <145332108+RLeandro05@users.noreply.github.com>
+Date:   Tue Sep 19 10:48:20 2023 +0200
+
+    hago un cambio en el fichero README.md
+
+[33mcommit b09638a7495f17cc3bba0ca767f20ca1e88f2fc8[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 19 10:27:20 2023 +0200
+
+    segundo cambio
+
+[33mcommit 4966f0744dbd1c0635a0a0f8329739e381ddcf9d[m
+Author: RLeandro05 <lligpic577@educaand.es>
+Date:   Tue Sep 19 10:21:23 2023 +0200
+
+    primer cambio
+
+[33mcommit 153ac8e0caf295bf88f47cfe04b4769a3b0f3567[m
+Author: RLeandro05 <145332108+RLeandro05@users.noreply.github.com>
+Date:   Tue Sep 19 10:02:14 2023 +0200
+
+    Initial commit
