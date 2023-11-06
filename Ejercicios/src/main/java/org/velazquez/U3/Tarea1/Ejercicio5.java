@@ -1,20 +1,24 @@
 package org.velazquez.U3.Tarea1;
 
-import java.util.Scanner;
-
 public class Ejercicio5 {
-    public static void MAYOR(int n1, int n2, int n3) {
-        int mayor = Math.max(Math.max(n1, n2), n3);
+    public static int mayor(int a, int b, int c) {
+        int mayor = a;
 
-        System.out.println(mayor);
+        if (b > mayor) {
+            mayor = b;
+        }
+        if (c > mayor) {
+            mayor = c;
+        }
+        return mayor;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        int a = 10;
+        int b = 20;
+        int c = 30;
 
-        int n1 = sc.nextInt();
-        int n2 = sc.nextInt();
-        int n3 = sc.nextInt();
+        int mayor = mayor(a, b, c);
 
-        MAYOR(n1, n2, n3);
+        System.out.println("El mayor es: " + mayor);
     }
 }
