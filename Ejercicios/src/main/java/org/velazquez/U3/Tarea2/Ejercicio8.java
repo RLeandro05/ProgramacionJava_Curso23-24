@@ -11,6 +11,7 @@ public class Ejercicio8 {
 
         String mensaje = sc.nextLine();
 
+
         int indice = mensaje.toLowerCase().indexOf(s1.toLowerCase());
         int indice2 = mensaje.toLowerCase().indexOf(s2.toLowerCase());
 
@@ -18,44 +19,34 @@ public class Ejercicio8 {
             System.out.println();
             System.out.println("El mensaje está en javaliano.");
             System.out.println();
-            int azarmin = 5;
-            int azarmax = 10;
 
-            int azar = (int) (Math.random()*((azarmax+1)-azarmin))+azarmin;
+            String mensaje_aux = mensaje.replace(s1,"");
+            char [] caracteres = mensaje_aux.toCharArray();
 
-            String subcadena = mensaje.substring(0, indice);
-            for (int i = 1; i <= azar; i++) {
-                System.out.print("_");
+            String mensajef = mensaje_aux;
+
+            for (int i = 0; i <= mensajef.length(); i++) {
+                if (Character.isWhitespace(caracteres[i])) {
+                    mensajef = mensajef.replaceFirst(" ","");
+                } else {
+                    System.out.println(mensajef);
+                    break;
+                }
             }
-            System.out.print(","+subcadena);
-            String subcadena2 = mensaje.substring(indice+16);
-            System.out.print(subcadena2);
-            System.out.println();
-            System.out.println("FINALIZADO");
         }
         if (indice2 != -1) {
             System.out.println();
             System.out.println("El mensaje está en javaliano.");
             System.out.println();
-            int azarmin = 5;
-            int azarmax = 10;
 
-            int azar = (int) (Math.random()*((azarmax+1)-azarmin))+azarmin;
-
-            String subcadena1_1 = mensaje.substring(0, indice2);
-            System.out.print(subcadena1_1);
-            for (int i = 1; i <= azar; i++) {
-                System.out.print("_");
-            }
-            System.out.println();
-            System.out.println("FINALIZADO");
+            String mensaje_aux = mensaje.substring(0,indice2);
+            System.out.println(mensaje_aux);
         }
-        if (indice2 == -1 && indice == -1) {
-            System.out.println("El mensaje no está javaliano");
+        if (indice == -1 && indice2 == -1) {
+            System.out.println();
+            System.out.println("El mensaje no está en javaliano.");
             System.out.println();
             System.out.println(mensaje);
-            System.out.println();
-            System.out.println("FINALIZADO");
         }
     }
 }
