@@ -12,6 +12,7 @@ public class Ejercicio8 {
         String mensaje = sc.nextLine();
 
 
+        //Guardamos dos índices para cada frase
         int indice = mensaje.toLowerCase().indexOf(s1.toLowerCase());
         int indice2 = mensaje.toLowerCase().indexOf(s2.toLowerCase());
 
@@ -21,11 +22,15 @@ public class Ejercicio8 {
             System.out.println();
 
             String mensaje_aux = mensaje.replace(s1,"");
+            //Analizamos el mensaje caracter por caracter
             char [] caracteres = mensaje_aux.toCharArray();
 
             String mensajef = mensaje_aux;
 
             for (int i = 0; i <= mensajef.length(); i++) {
+                //En el caso de que dicho caracter resulte un espacio en blanco,
+                //usaremos la función replaceFirst, el cual eliminará esclusivamente ese caracter
+                //para así no eliminar los espacios en blanco del mensaje que queremos transmitir
                 if (Character.isWhitespace(caracteres[i])) {
                     mensajef = mensajef.replaceFirst(" ","");
                 } else {
@@ -39,6 +44,8 @@ public class Ejercicio8 {
             System.out.println("El mensaje está en javaliano.");
             System.out.println();
 
+            //En esta caso es más fácil ya que sólo sacaremos una subcadena que vaya desde el inicio del mensaje
+            //hasta la muletilla sin incluirla
             String mensaje_aux = mensaje.substring(0,indice2);
             System.out.println(mensaje_aux);
         }
