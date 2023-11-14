@@ -1,6 +1,6 @@
 package org.velazquez.U1.Pruebas;
 
-public class Prueba8 {
+public class Fig_Rombo_Hueco {
     public static void main(String[] args) {
 
         System.out.println("ROMBO HUECO");

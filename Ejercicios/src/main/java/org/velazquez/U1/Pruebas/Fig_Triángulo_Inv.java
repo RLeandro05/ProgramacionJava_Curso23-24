@@ -1,6 +1,6 @@
 package org.velazquez.U1.Pruebas;
 
-public class Prueba7 {
+public class Fig_Triángulo_Inv {
     public static void main(String[] args) {
 
         System.out.println("TRIANGULO INVERTIDO");

@@ -3,7 +3,7 @@ package org.velazquez.U1.Pruebas;
 
 import java.util.Scanner;
 
-public class Prueba4 {
+public class Mostrar_Num_Quitando_EnMedio {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

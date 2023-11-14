@@ -1,6 +1,6 @@
 package org.velazquez.U1.Pruebas;
 
-public class Prueba5 {
+public class Fig_Flecha_Izquierda {
     public static void main(String[] args) {
 
         System.out.println("FLECHA");

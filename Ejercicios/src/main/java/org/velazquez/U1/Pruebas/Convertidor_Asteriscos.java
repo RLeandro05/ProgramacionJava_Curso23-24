@@ -2,7 +2,7 @@ package org.velazquez.U1.Pruebas;
 
 import java.util.Scanner;
 
-public class Prueba3 {
+public class Convertidor_Asteriscos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

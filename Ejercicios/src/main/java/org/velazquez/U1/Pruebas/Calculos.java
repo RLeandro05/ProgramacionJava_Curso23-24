@@ -1,7 +1,7 @@
 package org.velazquez.U1.Pruebas;
 
 
-public class Prueba11 {
+public class Calculos {
     public static void main(String[] args) {
 
         int palo_min = 1;

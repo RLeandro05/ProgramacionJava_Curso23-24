@@ -2,7 +2,7 @@ package org.velazquez.U1.Pruebas;
 
 import java.util.Scanner;
 
-public class Prueba12 {
+public class Cifras_Que_SIoNo_Aparecen {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

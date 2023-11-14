@@ -1,10 +1,10 @@
 package org.velazquez.U1.Pruebas;
 
 
-public class Prueba10 {
+public class Letra_MY {
     public static void main(String[] args) {
 
-        int altura = 5;
+        int altura = 11;
         int espacios = 4;
         int ancho = (altura+1)/2;
 
