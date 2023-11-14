@@ -28,11 +28,11 @@ public class Ejercicio8 {
             String mensajef = mensaje_aux;
 
             for (int i = 0; i <= mensajef.length(); i++) {
-                //En el caso de que dicho caracter resulte un espacio en blanco,
-                //usaremos la función replaceFirst, el cual eliminará esclusivamente ese caracter
-                //para así no eliminar los espacios en blanco del mensaje que queremos transmitir
-                if (Character.isWhitespace(caracteres[i])) {
-                    mensajef = mensajef.replaceFirst(" ","");
+                        //En el caso de que dicho caracter resulte un espacio en blanco,
+                        //usaremos la función replaceFirst, el cual eliminará esclusivamente ese caracter
+                        //para así no eliminar los espacios en blanco del mensaje que queremos transmitir
+                        if (Character.isWhitespace(caracteres[i])) {
+                            mensajef = mensajef.replaceFirst(" ","");
                 } else {
                     System.out.println(mensajef);
                     break;
