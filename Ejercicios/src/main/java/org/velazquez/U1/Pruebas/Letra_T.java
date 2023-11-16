@@ -12,9 +12,12 @@ public class Letra_T {
                 }
                 if (i > 1 && j == ancho) {
                     for (int k = 1; k<ancho; k++) {
-                        System.out.print(" ");
+                        System.out.print("-");
                     }
                     System.out.print("*");
+                    for (int k = 1; k<ancho; k++) {
+                        System.out.print("-");
+                    }
                 }
             }
             System.out.println();

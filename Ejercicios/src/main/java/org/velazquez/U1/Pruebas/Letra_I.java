@@ -2,7 +2,7 @@ package org.velazquez.U1.Pruebas;
 
 public class Letra_I {
     public static void main(String[] args) {
-        int n = 5;
+        int n = 7;
         int ancho = (n+1)/2;
 
         for (int i = 1; i<=n; i++) {
@@ -15,6 +15,9 @@ public class Letra_I {
                         System.out.print(" ");
                     }
                     System.out.print("*");
+                    for (int k = 1; k<ancho; k++) {
+                        System.out.print(" ");
+                    }
                 }
             }
             System.out.println();
