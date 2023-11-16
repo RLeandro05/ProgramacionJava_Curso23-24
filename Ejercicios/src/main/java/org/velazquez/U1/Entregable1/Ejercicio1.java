@@ -6,7 +6,7 @@ public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        int altura = 0;
+        int altura = 7;
 
 
         while (altura % 2 == 0 || altura < 3) {
