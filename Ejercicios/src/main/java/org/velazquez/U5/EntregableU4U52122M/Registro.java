@@ -80,7 +80,8 @@ public class Registro {
                 } else if (o1.anio_construccion < o2.anio_construccion) {
                     return 1;
                 } else {
-                    return compare(o1, o2);
+                    informeSuperficie();
+                    return 0;
                 }
             }
         });
