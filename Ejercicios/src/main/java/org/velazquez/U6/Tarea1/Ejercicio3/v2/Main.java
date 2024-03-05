@@ -1,8 +1,6 @@
 package org.velazquez.U6.Tarea1.Ejercicio3.v2;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 public class Main {
@@ -12,6 +10,7 @@ public class Main {
         //Cadena de ejemplo
         String cadena = "Hola";
         String cadena2 = "Adiós";
+        String textoCopia = "";
 
         System.out.println("Indique el nombre del archivo que quiere duplicar: ");
         String respuesta = sc.nextLine();
@@ -23,30 +22,23 @@ public class Main {
 
         if (respuesta.equals(nombreDireccion)) {
             //Si es correcto el nombre, se crea el archivo original y la copia
-            try {
-                //Creamos escritor de 'original.txt'
-                BufferedWriter escritor = new BufferedWriter(new FileWriter(direccion));
+            try  {
+                BufferedReader lector = new BufferedReader(new FileReader(direccion));
+                BufferedWriter lectorCopia = new BufferedWriter(new FileWriter(direccionCopia));
+                int c = lector.read();
+                // Leemos cada uno de los caracteres de 'original.txt'
+                while (c != -1) {
+                    textoCopia += (char) c;
+                    c = lector.read();
+                }
+                lector.close();
 
-                //Escribimos la cadena de ejemplo en 'original.txt'
-                escritor.write(cadena);
-                escritor.newLine();
-                escritor.write(cadena2);
-                escritor.close();
-
-                //Creamos escritor de 'copia.txt'
-                BufferedWriter escritorCopia = new BufferedWriter(new FileWriter(direccionCopia));
-
-                //Escribimos la misma cadena de ejemplo en 'copia.txt'
-                escritorCopia.write(cadena);
-                escritorCopia.newLine();
-                escritorCopia.write(cadena2);
-                escritorCopia.close();
-
-                //Indicamos que lacopi se creó
-                System.out.println("El archivo copia de '"+respuesta+"' ha sido creado");
+                // Escribimos en el archivo 'copia.txt' la cadena "textoCopia"
+                lectorCopia.write(textoCopia);
+                lectorCopia.close();
 
             } catch (IOException e) {
-                System.out.println("Hubo errores: "+e.getMessage());
+                System.out.println("Hubo errores: " + e.getMessage());
             }
         } else {
             //Si no se escribe el archivo correcto, no se creará nada
