@@ -65,7 +65,7 @@ public class Main {
                 if (mapEmpleados == null) { // En el caso de que no haya nada, se le comenta al usuario
                     System.out.println("No existe ningún empleado en el archivo 'empleados.bin'");
                 } else { // Si encuentra algo en el archivo, lo mostrará por pantalla
-                    System.out.println();
+                    System.out.println(mapEmpleados);
                 }
 
             } catch (IOException | ClassNotFoundException c) {
@@ -147,27 +147,75 @@ public class Main {
 
                     System.out.println(mapEmpleados); // Mostramos por pantalla el listado completo de los empleados una vez se han borrado los que quiera el usuario
                     break;
-                case 3:
+                case 3: // Si desea visualizar un empleado a partir de su dni
                     System.out.println("Por favor, ingrese el DNI del empleado: ");
                     String dni = sc.next(); // Ingresamos el dni, el cual es la clave en el mapa
 
                     if (mapEmpleados.containsKey(dni)) { // Si el dni está presente en el mapa, mostramos los datos del empleado asociado a dicho dni
-                        mapEmpleados.get(dni);
+                        System.out.println(mapEmpleados.get(dni));
                     } else {
                         System.out.println("No existe ningún empleado con el DNI: "+dni); // Si no lo encuentra, se lo indicamos al usuario
                     }
 
                     System.out.println(mapEmpleados); // Mostramos por pantalla el listado completo de los empleados una vez se ha realizado la operación
                     break;
-                case 4:
+                case 4: // Si desea modificar un empleado ya existente
+                    System.out.println("¿Qué DNI desea modificar?: ");
+                    String DNI = sc.next(); // Escribimos el DNI para modificar el empleado
 
+                    if (mapEmpleados.containsKey(DNI)) { // Si el dni está presente, cambiamos los datos
+                        System.out.println("Ingrese el nombre: ");
+                        String nombre = sc.next();
+                        System.out.println("Ingrese la estatura: ");
+                        double estatura = sc.nextDouble();
+                        System.out.println("Ingrese la edad: ");
+                        int edad = sc.nextInt();
+                        System.out.println("Ingrese el sueldo: ");
+                        int sueldo = sc.nextInt();
+
+                        Empleado empleado = new Empleado(nombre, DNI, sueldo, estatura, edad);
+
+                        mapEmpleados.put(DNI, empleado); // Lo añadimos al mapa, y este automáticamente quitará el elemtno anterior por el nuevo, sin modificar el dni
+                    } else {
+                        System.out.println("No existe el empleado con DNI: "+DNI);
+                    }
+
+                    System.out.println(mapEmpleados); // Mostramos por pantalla el listado de los empleados
+                    break;
+                case 5: // Si desea inserta run nuevo empleado
+                    System.out.println("Inserte el nombre: ");
+                    String nombre = sc.next();
+                    System.out.println("Inserte el dni: ");
+                    String dNi = sc.next();
+                    System.out.println("Inserte la edad: ");
+                    int edad = sc.nextInt();
+                    System.out.println("Inserte la estatura: ");
+                    double estatura = sc.nextDouble();
+                    System.out.println("Inserte el sueldo: ");
+                    int sueldo = sc.nextInt();
+
+                    Empleado empleado = new Empleado(nombre, dNi, edad, estatura, sueldo);
+
+                    mapEmpleados.put(dNi, empleado); // Añadimos el nuevo empleado en el mapa
+
+                    System.out.println(mapEmpleados); // Mostramos por pantalla el listado de los empleados
+                    break;
             }
 
             System.out.println("¿Desea seguir realizando operaciones? (s/n)");
-            String decision = sc.next();
+            String decision = sc.next(); // Decidimos si segui realizando operaciones
 
-            if (decision.equals("n") || decision.equals("N")) {
-                
+            if (decision.equals("n") || decision.equals("N")) { // Si queremos salir, el mapaserá insertado en el archivo binario
+                try  {
+                    ObjectOutputStream escritor = new ObjectOutputStream(new FileOutputStream(enlace));
+
+                    escritor.writeObject(mapEmpleados);
+
+                    escritor.close();
+                } catch (IOException e) {
+                    System.out.println("Hubo errores en: "+e.getMessage());
+                }
+
                 break;
             }
         }
