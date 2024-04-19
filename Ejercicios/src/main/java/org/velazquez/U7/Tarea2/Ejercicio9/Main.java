@@ -1,4 +1,4 @@
-package org.velazquez.U7.Tarea2.Ejercicio1;
+package org.velazquez.U7.Tarea2.Ejercicio9;
 
 /*Implementar el método unión de dos conjuntos,
 que devuelva un nuevo conjunto con todos los elementos que pertenezcan, al menos,

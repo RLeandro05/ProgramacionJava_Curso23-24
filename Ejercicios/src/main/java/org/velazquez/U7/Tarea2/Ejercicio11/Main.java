@@ -1,4 +1,4 @@
-package org.velazquez.U7.Tarea2.Ejercicio2;
+package org.velazquez.U7.Tarea2.Ejercicio11;
 
 /*Diseñar un método que devuelva la diferencia de dos conjuntos (elementos que pertenecen al primero,
 pero no al segundo). Con el prototipo:
