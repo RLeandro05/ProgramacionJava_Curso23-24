@@ -1,4 +1,4 @@
-package org.velazquez.U7.Entregable2324;
+package org.velazquez.U7.Ligero_Picon_U6U7_Entregable;
 
 import java.io.Serializable;
 import java.util.Comparator;
