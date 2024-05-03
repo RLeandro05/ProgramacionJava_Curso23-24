@@ -1,0 +1,1 @@
+2024-04-04T21:42:59.918491600 Error 222: No puede ingresar a un menor de edad. Edad introducida: (16)
