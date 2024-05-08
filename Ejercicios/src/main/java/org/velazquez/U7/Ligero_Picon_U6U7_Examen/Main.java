@@ -1,9 +1,7 @@
-package org.velazquez.Ligero_Picon_U6U7_Examen;
+package org.velazquez.U7.Ligero_Picon_U6U7_Examen;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class Main implements Serializable {
     public static void main(String[] args) {

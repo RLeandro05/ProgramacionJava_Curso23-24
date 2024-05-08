@@ -1,11 +1,10 @@
-package org.velazquez.Ligero_Picon_U6U7_Examen;
+package org.velazquez.U7.Ligero_Picon_U6U7_Examen;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Stream;
 
 public class FeriaSevilla implements Serializable{
 
