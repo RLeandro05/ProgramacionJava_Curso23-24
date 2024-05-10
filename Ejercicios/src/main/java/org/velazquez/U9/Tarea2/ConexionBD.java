@@ -5,23 +5,38 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexionBD {
+    private static Connection con = null;
 
-    private static Connection con=null;
+    public ConexionBD() {
+    }
     public static Connection getConnection(){
-        try{
-            if( con == null ){
-                String driver="com.mysql:mysql-connector-j:8.3.0"; //el driver varia segun la DB que usemos
-                String url="jdbc:mysql://localhost:3336/nombre_DB?autoReconnect=true";
+
+        if (con == null) {
+            try{
+//                String driver="com.mysql:mysql-connector-j:8.3.0";
+                String url="jdbc:mysql://localhost:3336/classicmodels?autoReconnect=true";
                 String pwd="XXXXX";
-                String usr="usuario";
-                Class.forName(driver);
-                con = DriverManager.getConnection(url,usr,pwd);
+                String usr="root";
+                con = DriverManager.getConnection(url,usr,pwd); // Lo conectamos al driver
                 System.out.println("Conection Succesfull");
             }
+            catch(SQLException ex){
+                System.out.println(ex.getMessage());
+                ex.printStackTrace();
+            }
         }
-        catch(ClassNotFoundException | SQLException ex){
-            ex.printStackTrace();
+        return con; // Devolvemos la conexión
+    }
+
+    public static void close() {
+        try {
+            if (con != null) {
+                con.close();
+                con = null;
+                System.out.println("Conexión cerrada correctamente.");
+            }
+        } catch (SQLException e) {
+            System.out.println("Hubo errores en: "+e.getMessage());
         }
-        return con;
     }
 }

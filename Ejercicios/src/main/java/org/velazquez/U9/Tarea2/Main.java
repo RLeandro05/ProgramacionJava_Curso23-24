@@ -5,14 +5,7 @@ public class Main {
 
         ADClassicModels bd = new ADClassicModels();
 
-        bd.getEmpleados();
+        System.out.println(bd.getOffices());
 
-        System.out.println("------------------------------------------------");
-
-        bd.getOffices();
-
-        System.out.println("------------------------------------------------");
-
-        bd.close();
     }
 }
