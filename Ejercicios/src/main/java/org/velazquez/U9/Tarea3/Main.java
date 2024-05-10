@@ -11,7 +11,7 @@ public class Main {
 //            connection = DriverManager.getConnection("jdbc:sqlite:sampledatabase.db");
 //            Statement statement = connection.createStatement();
 //            statement.setQueryTimeout(30);
-//            ResultSet rs1 = statement.executeQuery("SELECT * from CUSTOMERS where state IS NULL");
+//            ResultSet rs1 = statement.executeQuery("SELECT * from customers where customerNumber = 577");
 //            while (rs1.next()) {
 //                System.out.println("Nombre de cliente: " + rs1.getString("customerName"));
 //                System.out.println("State del cliente: " + rs1.getString("state"));
@@ -42,6 +42,7 @@ public class Main {
                 insertarCliente();
                 break;
             case 2:
+                asignarEmpleadoaCliente();
                 break;
             case 3:
                 break;
@@ -134,4 +135,57 @@ public class Main {
             }
         }
     }
+
+    public static void asignarEmpleadoaCliente() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Introduzca el identificador del empleado: ");
+        int idEmpleado = sc.nextInt();
+
+        System.out.println("Introduzca el identificador del cliente: ");
+        int idCliente = sc.nextInt();
+
+        Connection connection = null;
+
+        try {
+
+            connection = DriverManager.getConnection("jdbc:sqlite:sampledatabase.db");
+
+            String sql1 = "Select employeeNumber from employees where employeeNumber = "+idEmpleado;
+
+            PreparedStatement statement1 = connection.prepareStatement(sql1);
+
+            ResultSet rs1 = statement1.executeQuery();
+
+            if (rs1.next()) {
+                System.out.println("El empleado con id '"+idEmpleado+"' existe.");
+                String sql2 = "Select customerNumber from customers where customerNumber = "+idCliente;
+
+                PreparedStatement statement2 = connection.prepareStatement(sql2);
+
+                ResultSet rs2 = statement2.executeQuery();
+
+                if (rs2.next()) {
+                    System.out.println("El cliente con id '"+idCliente+"' existe.");
+
+                    
+                } else {
+                    System.out.println("El cliente con id '"+idCliente+"' no existe.");
+                }
+            } else {
+                System.out.println("El empleado con id '"+idEmpleado+"' no existe.");
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        } finally {
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 }
+
