@@ -168,7 +168,7 @@ public class Main {
                 if (rs2.next()) {
                     System.out.println("El cliente con id '"+idCliente+"' existe.");
 
-                    
+
                 } else {
                     System.out.println("El cliente con id '"+idCliente+"' no existe.");
                 }
