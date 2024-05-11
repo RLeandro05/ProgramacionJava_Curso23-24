@@ -1,13 +1,13 @@
-package org.velazquez.U9.Tarea2;
+package org.velazquez.U9;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class ConexionBD {
+public class CONEXIONBD {
     private static Connection con = null;
 
-    public ConexionBD() {
+    public CONEXIONBD() {
     }
     public static Connection getConnection(){
 
@@ -18,7 +18,7 @@ public class ConexionBD {
                 String pwd="XXXXX";
                 String usr="root";
                 con = DriverManager.getConnection(url,usr,pwd); // Lo conectamos al driver
-                System.out.println("Conection Succesfull");
+                System.out.println("Conexión establecida.");
             }
             catch(SQLException ex){
                 System.out.println(ex.getMessage());

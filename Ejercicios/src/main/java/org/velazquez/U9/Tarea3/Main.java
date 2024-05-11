@@ -1,30 +1,13 @@
 package org.velazquez.U9.Tarea3;
 
+import org.velazquez.U9.CONEXIONBD;
+import org.velazquez.U9.Tarea2.ConexionBD;
+
 import java.sql.*;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        Connection connection = null;
-//
-//        try {
-//            connection = DriverManager.getConnection("jdbc:sqlite:sampledatabase.db");
-//            Statement statement = connection.createStatement();
-//            statement.setQueryTimeout(30);
-//            ResultSet rs1 = statement.executeQuery("SELECT * from orderdetails where orderNumber = 10100");
-//            while (rs1.next()) {
-//                System.out.println("Número de pedido: " + rs1.getInt("orderNumber"));
-//                System.out.println("Número de producto: " + rs1.getString("productCode"));
-//            }
-//        } catch (SQLException e) {
-//            System.err.println(e.getMessage());
-//        } finally {
-//            try {
-//                if (connection != null) connection.close();
-//            } catch (SQLException e) {
-//                System.err.println(e.getMessage());
-//            }
-//        }
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Escoja una de las siguientes opciones: ");
@@ -103,10 +86,10 @@ public class Main {
         Connection conexion = null; // Definimos una conexión
 
         try {
-            conexion = DriverManager.getConnection("jdbc:sqlite:sampledatabase.db"); // Cargamos el driver
+            conexion = CONEXIONBD.getConnection(); // Cargamos el driver
 
             // Al añadir los datos, hacemos una consulta con INSERT INTO y ponemos como valores "?" para evitar los ataques de inyección SQL además de ser más legible
-            String sql = "INSERT INTO CUSTOMERS (customerNumber, customerName, contactLastName, contactFirstName, phone, addressLine1, addressLine2, city, state, postalCode, country, salesRepEmployeeNumber, creditLimit) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+            String sql = "INSERT INTO customers (customerNumber, customerName, contactLastName, contactFirstName, phone, addressLine1, addressLine2, city, state, postalCode, country, salesRepEmployeeNumber, creditLimit) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
             PreparedStatement statement = conexion.prepareStatement(sql);
 
             // Añadimos todos los datos en cada statement.set
@@ -123,6 +106,8 @@ public class Main {
             statement.setString(11, pais);
             statement.setInt(12, salesRepEmployeeNumber);
             statement.setDouble(13, limiteCredito);
+
+            statement.executeUpdate();
 
             // Para asegurarnos, mostramos por pantalla que se hizo con éxito. Podemos realizar una consulta por si acaso
             System.out.println("Los datos han sido insertados correctamente en la tabla de clientes.");
@@ -150,7 +135,7 @@ public class Main {
 
         try {
 
-            connection = DriverManager.getConnection("jdbc:sqlite:sampledatabase.db");
+            connection = CONEXIONBD.getConnection();
 
             String sql1 = "Select employeeNumber from employees where employeeNumber = "+idEmpleado;
 
@@ -207,7 +192,7 @@ public class Main {
         Connection connection = null;
 
         try {
-            connection = DriverManager.getConnection("jdbc:sqlite:sampledatabase.db");
+            connection = CONEXIONBD.getConnection();
 
             String sql1 = "Select productCode from products where upper(productCode) like '"+idProducto+"'";
 
@@ -276,7 +261,7 @@ public class Main {
         Connection connection = null;
 
         try {
-            connection = DriverManager.getConnection("jdbc:sqlite:sampledatabase.db");
+            connection = CONEXIONBD.getConnection();
 
             String verificarProducto = "Select * from orders where orderNumber = "+orderNumber;
 
@@ -318,4 +303,3 @@ public class Main {
         }
     }
 }
-
