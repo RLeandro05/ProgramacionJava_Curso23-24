@@ -2,7 +2,7 @@ package org.velazquez.U9.Ligero_Picon_U9_Entregable;
 
 public class Main {
     public static void main(String[] args) {
-        
+
         Consultas consulta = new Consultas();
 
         consulta.empleadosOficinaMayor();
