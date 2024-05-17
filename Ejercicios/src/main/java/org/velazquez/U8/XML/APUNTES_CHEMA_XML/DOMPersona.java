@@ -21,7 +21,7 @@ public class DOMPersona {
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document doc =
-                    db.parse(new File("C:\\Users\\liger\\Desktop\\programacion_23_24\\Ejercicios\\src\\main\\java\\org\\velazquez\\U8\\APUNTES_CHEMA_XML\\personasXML.xml"));
+                    db.parse(new File("C:\\Users\\liger\\Desktop\\programacion_23_24\\Ejercicios\\src\\main\\java\\org\\velazquez\\U8\\XML\\APUNTES_CHEMA_XML\\personasXML.xml"));
 
             // Cojo directamente las etiquetas persona
             NodeList nl = doc.getElementsByTagName("persona"); // Lista de nodos que guarda todas las etiquetas con el nombre persona
