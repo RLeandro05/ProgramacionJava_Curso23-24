@@ -1,4 +1,4 @@
-package org.velazquez.U8.APUNTES_CHEMA_XML;
+package org.velazquez.U8.XML.APUNTES_CHEMA_XML;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,16 +21,16 @@ public class DOMPersona {
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document doc =
-                    db.parse(new File("src/main/java/U8_xml_json/XML/ejercicios/ejemploDOM/personasXML.xml"));
+                    db.parse(new File("C:\\Users\\liger\\Desktop\\programacion_23_24\\Ejercicios\\src\\main\\java\\org\\velazquez\\U8\\APUNTES_CHEMA_XML\\personasXML.xml"));
 
             // Cojo directamente las etiquetas persona
-            NodeList nl = doc.getElementsByTagName("persona");
+            NodeList nl = doc.getElementsByTagName("persona"); // Lista de nodos que guarda todas las etiquetas con el nombre persona
 
             System.out.println("En este fichero tengo " + nl.getLength() + " etiquetas persona");
 
             // Voy a tratar cada una de estas etiquetas persona
             for (int i = 0; i < nl.getLength(); i++) {
-                Node nodo = nl.item(i);
+                Node nodo = nl.item(i); // Iteramos cada nodo de la lista
 
                 if (nodo.getNodeType() == Node.ELEMENT_NODE) {
                     Element e = (Element) nl.item(i);
@@ -55,9 +55,7 @@ public class DOMPersona {
                 }
             }
 
-        } catch(ParserConfigurationException | SAXException | IOException e)
-
-        {
+        } catch (ParserConfigurationException | SAXException | IOException e) {
             for (StackTraceElement element : e.getStackTrace()) {
                 System.out.println(element);
             }

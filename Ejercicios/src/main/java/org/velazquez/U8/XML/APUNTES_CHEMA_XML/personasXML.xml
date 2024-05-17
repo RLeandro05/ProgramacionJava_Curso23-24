@@ -16,5 +16,9 @@
         <nombre>Raul</nombre>
         <edad>22</edad>
     </persona>
+    <persona id="4">
+            <nombre>Leandro</nombre>
+            <edad>19</edad>
+    </persona>
     texto3
 </personas>
