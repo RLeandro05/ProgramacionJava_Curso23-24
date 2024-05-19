@@ -1,6 +1,6 @@
 <?xml version ="1.0"?>
 <facturas>
-  <factura>
+  <factura id="1">
     <numero>999</numero>
 	<empresa>Equipos Digitales S.L.</empresa>
 	<direccion>Av Valladolid</direccion>
@@ -13,7 +13,7 @@
 	<forma_de_pago>EFECTIVO</forma_de_pago>
 	<DATOS_CLIENTE>
 	  <numero>879</numero>
-	  <nombre>Darío Bueno Gutiérrez</nombre>
+	  <nombre>Darío Bueno Gutierrez</nombre>
 	  <direccion_envio>Av. Oporto nº7 4ºd</direccion_envio>
 	  <poblacion>Madrid</poblacion>
 	  <cod_postal>28043</cod_postal>
