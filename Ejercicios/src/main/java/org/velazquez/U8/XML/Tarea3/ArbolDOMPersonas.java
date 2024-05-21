@@ -52,10 +52,10 @@ public class ArbolDOMPersonas {
             Transformer transformer = transformerFactory.newTransformer();
             transformer.setOutputProperty(OutputKeys.INDENT, "yes"); // Propiedad para indentar el output
 
-            DOMSource source = new DOMSource(documento);
+            DOMSource dom = new DOMSource(documento);
             StreamResult streamResult = new StreamResult(System.out); // Resultado se enviará a la consola
 
-            transformer.transform(source, streamResult); // Transformación del documento a un stream legible
+            transformer.transform(dom, streamResult); // Transformación del documento a un stream legible
         } catch (TransformerException e) {
             e.printStackTrace();
         }
@@ -107,6 +107,8 @@ public class ArbolDOMPersonas {
             StreamResult streamResult = new StreamResult(new File(nombreFichero)); // Resultado se enviará a un archivo
 
             transformer.transform(dom, streamResult); // Transformación y guardado del documento
+
+            System.out.println("Documento guardado correctamente.");
         } catch (TransformerException e) {
             e.printStackTrace();
         }

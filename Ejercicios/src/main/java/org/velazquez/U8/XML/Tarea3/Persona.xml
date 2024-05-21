@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <personas>
-
-    <persona>
-
-        <nombre>Juan</nombre>
-
-        <edad>32</edad>
-
-    </persona>
         
     <persona>
                 
-        <nombre>Ana</nombre>
+        <nombre>Juan</nombre>
                 
-        <edad>25</edad>
+        <edad>33</edad>
             
     </persona>
+            
     
+    <persona>
+                        
+        
+        <nombre>Ana</nombre>
+                        
+        
+        <edad>25</edad>
+                    
+    
+    </persona>
+        
+
 </personas>
