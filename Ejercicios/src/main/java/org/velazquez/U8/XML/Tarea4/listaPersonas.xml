@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<personas>
+    <persona id="1">
+        <nombre>Leandro</nombre>
+        <edad>19</edad>
+    </persona>
+    <persona>
+        <nombre>Rocio</nombre>
+        <edad>19</edad>
+    </persona>
+    <persona id="3">
+        <nombre>Chema</nombre>
+        <edad>55</edad>
+    </persona>
+</personas>
