@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "Fernando",
+    "apellidos": "García",
+    "edad": 20,
+    "asignaturas": [
+      {
+        "id": 1,
+        "nombre": "Programación",
+        "alumnoId": 1
+      },
+      {
+        "id": 2,
+        "nombre": "Base de datos",
+        "alumnoId": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Manuel",
+    "apellidos": "Sánchez",
+    "edad": 23,
+    "asignaturas": [
+      {
+        "id": 3,
+        "nombre": "Programación",
+        "alumnoId": 2
+      },
+      {
+        "id": 4,
+        "nombre": "Lenguaje de marcas",
+        "alumnoId": 2
+      }
+    ]
+  }
+]
