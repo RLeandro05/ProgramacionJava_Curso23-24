@@ -1,4 +1,4 @@
-package org.velazquez.U8.XML.Entregable1920;
+package org.velazquez.U8.XML.Entregable1920XML;
 
 public class Main {
     public static void main(String[] args) {

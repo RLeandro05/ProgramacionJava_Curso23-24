@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alumnos>
+
+    <alumno dni="33333X">
+
+        <nombre>Juan</nombre>
+
+        <apellido>Pérez</apellido>
+
+        <direccion>Aquí</direccion>
+
+    </alumno>
+
+    <alumno dni="22222X">
+
+        <nombre>Rosa</nombre>
+
+        <apellido>Torres</apellido>
+
+        <direccion>Aquí</direccion>
+
+    </alumno>
+
+    <alumno dni="X555555">
+
+        <nombre>Agustín</nombre>
+
+        <apellido>Barrios</apellido>
+
+        <direccion>Lejos</direccion>
+
+    </alumno>
+
+    <alumno dni="A7777777">
+
+        <nombre>Joaquín</nombre>
+
+        <apellido>Roldan</apellido>
+
+        <direccion>Más Lejos</direccion>
+
+    </alumno>
+
+</alumnos>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<personas>
+    <persona dni="8888888X">
+    <nombre>Luis</nombre>
+    <apellido>Ruiz</apellido>
+    <direccion>Alli</direccion>
+    <instituto>IES VELAZQUEZ</instituto>
+    </persona>
+    <persona dni="22222X">
+        <nombre>Rosa</nombre>
+        <apellido>Torres</apellido>
+        <direccion>Aquí</direccion>
+        <instituto>IES VELAZQUEZ</instituto>
+    </persona>
+    <persona dni="33333X">
+        <nombre>Juan</nombre>
+        <apellido>Pérez</apellido>
+        <direccion>Aquí</direccion>
+        <instituto>IES VELAZQUEZ</instituto>
+    </persona>
+    <persona dni="A7777777">
+        <nombre>Joaquín</nombre>
+        <apellido>Roldan</apellido>
+        <direccion>Más Lejos</direccion>
+        <instituto>IES VELAZQUEZ</instituto>
+    </persona>
+    <persona dni="X555555">
+        <nombre>Agustín</nombre>
+        <apellido>Barrios</apellido>
+        <direccion>Lejos</direccion>
+        <instituto>IES VELAZQUEZ</instituto>
+    </persona>
+</personas>

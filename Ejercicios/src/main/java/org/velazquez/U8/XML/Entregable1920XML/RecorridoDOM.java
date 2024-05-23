@@ -1,4 +1,4 @@
-package org.velazquez.U8.XML.Entregable1920;
+package org.velazquez.U8.XML.Entregable1920XML;
 
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
