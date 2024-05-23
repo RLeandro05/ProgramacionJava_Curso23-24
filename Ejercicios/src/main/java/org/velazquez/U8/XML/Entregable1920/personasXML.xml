@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<cosas>
+    <persona id="1">Numero1
+        <nombre>Leandro</nombre>
+        <edad>19</edad>
+        <estado_civil>soltero</estado_civil>
+    </persona>
+    <pais id="2">Numero2
+        <nombre>España</nombre>
+        <continente>Europa</continente>
+        <planeta>Tierra</planeta>
+    </pais>Numero3
+    <ciudad id="3">
+        <nombre>Sevilla</nombre>
+        <provincia>Sevilla</provincia>
+        <comunidad_autonoma>Andalucia</comunidad_autonoma>
+    </ciudad>
+    <trabajo id="4">Numero4
+        <nombre>daw</nombre>
+        <especializacion>ciberseguridad</especializacion>
+        <empresa>tecnoSevilla, inc.</empresa>
+    </trabajo>
+    <persona id="5">Numero5
+        <nombre>Javier</nombre>
+        <edad>20</edad>
+        <estado_civil>relacion</estado_civil>
+    </persona>
+</cosas>
