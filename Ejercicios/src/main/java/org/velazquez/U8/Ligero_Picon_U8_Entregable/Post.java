@@ -8,9 +8,9 @@ public class Post {
     private String link;
     private String description;
     private String pubdate;
-    private List<String> listGuids;
+    private String listGuids;
 
-    public Post(String title, String link, String description, String pubdate, List<String> guid) {
+    public Post(String title, String link, String description, String pubdate, String guid) {
         this.title = title;
         this.link = link;
         this.description = description;
@@ -54,7 +54,7 @@ public class Post {
         return listGuids.toString();
     }
 
-    public void setListGuids(List<String> listGuids) {
+    public void setListGuids(String listGuids) {
         this.listGuids = listGuids;
     }
 

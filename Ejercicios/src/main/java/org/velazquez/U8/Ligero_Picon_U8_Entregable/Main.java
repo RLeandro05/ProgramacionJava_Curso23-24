@@ -14,11 +14,7 @@ public class Main {
         System.out.println("----------------------------------------------------------------------------------");
 
         // COMPLETO
-        List<String> listaGuids = new ArrayList<>();
-        listaGuids.add("Valor1");
-        listaGuids.add("Valor2");
-        listaGuids.add("Valor3");
-        Post post = new Post("Titulo1", "https://newsroom.pinterest.com/es/post/presentamos-pinflex-un-modelo-de-trabajo-inspirador-para-nuestros-empleados", "Descripcion1", "2024-05-24T01:00:00", listaGuids);
+        Post post = new Post("Titulo1", "https://newsroom.pinterest.com/es/post/presentamos-pinflex-un-modelo-de-trabajo-inspirador-para-nuestros-empleados", "Descripcion1", "2024-05-24T01:00:00", "Valor1");
         process.addPost(post);
 
         System.out.println("----------------------------------------------------------------------------------");

@@ -206,29 +206,6 @@
 
     <post>
 
-
-        <titulo>Titulo1</titulo>
-
-
-        <link>
-            https://newsroom.pinterest.com/es/post/presentamos-pinflex-un-modelo-de-trabajo-inspirador-para-nuestros-empleados
-        </link>
-
-
-        <description>Descripcion1</description>
-
-
-        <pubDate>2024-05-24T01:00:00</pubDate>
-
-
-        <guid isPermaLink="true">[Valor1, Valor2, Valor3]</guid>
-
-
-    </post>
-
-
-    <post>
-
         <titulo>Titulo1</titulo>
 
         <link>
@@ -239,7 +216,7 @@
 
         <pubDate>2024-05-24T01:00:00</pubDate>
 
-        <guid isPermaLink="true">[Valor1, Valor2, Valor3]</guid>
+        <guid isPermaLink="true">Valor1</guid>
 
     </post>
 
@@ -250,6 +227,6 @@
         </link>
         <description>Descripcion1</description>
         <pubDate>2024-05-24T01:00:00</pubDate>
-        <guid isPermaLink="true">[Valor1, Valor2, Valor3]</guid>
+        <guid isPermaLink="true">Valor1</guid>
     </post>
 </posts>

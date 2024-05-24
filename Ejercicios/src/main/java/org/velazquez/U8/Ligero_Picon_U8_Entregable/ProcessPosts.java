@@ -101,7 +101,7 @@ public class ProcessPosts {
         String link = "";
         String description = "";
         String pubdate = "";
-        List<String> listaGuids = new ArrayList<>();
+        String guid = "";
 
         Element raiz = documento.getDocumentElement();
 
@@ -135,12 +135,12 @@ public class ProcessPosts {
                                 pubdate = elementoNieto.getTextContent();
                                 break;
                             case "guid":
-                                listaGuids.add(elementoNieto.getTextContent());
+                                guid = elementoNieto.getTextContent();
                         }
                     }
                 }
 
-                Post post = new Post(title, link, description, pubdate, listaGuids);
+                Post post = new Post(title, link, description, pubdate, guid);
 
                 listaPosts.add(post);
             }
