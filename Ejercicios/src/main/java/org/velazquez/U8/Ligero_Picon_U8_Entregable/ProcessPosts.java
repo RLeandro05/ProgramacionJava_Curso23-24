@@ -61,7 +61,7 @@ public class ProcessPosts {
 
         Element guid = documento.createElement("guid");
         nuevoPost.appendChild(guid);
-        guid.setTextContent(post.getListGuids());
+        guid.setTextContent(post.getGuid());
         guid.setAttribute("isPermaLink", "true");
 
         TransformerFactory tf = TransformerFactory.newInstance();

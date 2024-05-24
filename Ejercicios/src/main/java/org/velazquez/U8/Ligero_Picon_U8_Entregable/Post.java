@@ -1,21 +1,19 @@
 package org.velazquez.U8.Ligero_Picon_U8_Entregable;
 
-import java.util.List;
-
 public class Post {
 
     private String title;
     private String link;
     private String description;
     private String pubdate;
-    private String listGuids;
+    private String guid;
 
     public Post(String title, String link, String description, String pubdate, String guid) {
         this.title = title;
         this.link = link;
         this.description = description;
         this.pubdate = pubdate;
-        this.listGuids = guid;
+        this.guid = guid;
     }
 
     public String getTitle() {
@@ -50,12 +48,12 @@ public class Post {
         this.pubdate = pubdate;
     }
 
-    public String getListGuids() {
-        return listGuids.toString();
+    public String getGuid() {
+        return guid.toString();
     }
 
-    public void setListGuids(String listGuids) {
-        this.listGuids = listGuids;
+    public void setGuid(String guid) {
+        this.guid = guid;
     }
 
     @Override
@@ -65,7 +63,7 @@ public class Post {
                 ", link='" + link + '\'' +
                 ", description='" + description + '\'' +
                 ", pubdate='" + pubdate + '\'' +
-                ", guid='" + listGuids + '\'' +
+                ", guid='" + guid + '\'' +
                 '}';
     }
 }
