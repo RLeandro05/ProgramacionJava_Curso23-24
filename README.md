@@ -1,5 +1,2 @@
-# programacion_23_24
-Repositorio de Programación 23/24
-fichero
-
-Pues al final me cargo la línea y punto
+# Curso de Programación Java 23/24
+Repositorio donde almacena una gran diversidad de ejercicios y exámenes usando el lenguaje Java.
